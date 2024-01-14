@@ -21,7 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:stevidunn1@gmail.com"}
-  - {title: Github, icon: github, url: "https://https://github.com/SteviDunn"}
+  - {title: Github, icon: <i class="fa-brands fa-linkedin"></i>, url: "https://https://github.com/SteviDunn"}
   # - {title: Subscribe, icon: rss, url: "/feed.xml"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/stevi-dunn/"}
 
