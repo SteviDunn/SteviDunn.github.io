@@ -23,6 +23,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:stevidunn1@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/SteviDunn?tab=repositories"}
   - {title: Linkedin, icon: <i class="fa-brands fa-linkedin"></i>, url: "https://www.linkedin.com/in/stevi-dunn/"}
+  #- {title: Linkedin, icon: <i class="fa-brands fa-linkedin"></i>, url: "https://www.linkedin.com/in/stevi-dunn/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
