@@ -27,6 +27,8 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
+
+
 <header>
   <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
@@ -38,7 +40,9 @@
   {% include menu.html menu=pages %}
 </header>
 
+<body>
 {{ content }}
+</body>
 
 {% if site.external %}
 <footer>
