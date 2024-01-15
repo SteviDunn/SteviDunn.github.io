@@ -18,22 +18,30 @@ title: Resume/CV
       font-family: Arial, sans-serif;
     }
 
+    .pdf-container {
+      display: flex;
+      flex: 1;
+    }
+
     iframe {
       border: 0;
       flex: 1;
       height: 100vh;
     }
 
-    .pdf-container {
+    .download-links {
       display: flex;
-      flex: 1;
+      justify-content: space-around;
+      padding: 20px;
     }
 
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
+    .download-link {
+      text-decoration: none;
+      color: #333;
+      background-color: #f8f8f8;
+      padding: 10px 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
@@ -44,7 +52,10 @@ title: Resume/CV
     <iframe src="path/to/cv.pdf" title="CV"></iframe>
   </div>
 
-  
+  <div class="download-links">
+    <a href="path/to/resume.pdf" class="download-link" download>Download Resume</a>
+    <a href="path/to/cv.pdf" class="download-link" download>Download CV</a>
+  </div>
 </body>
 
 </html>
