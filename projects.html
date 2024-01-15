@@ -1,0 +1,88 @@
+---
+layout: default
+title: Projects
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project {
+      flex: 1 1 300px;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .project img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <main>
+    <div class="project">
+      <img src="project1-thumbnail.jpg" alt="Project 1">
+      <h2>Project 1</h2>
+      <p>Description: Brief description of Project 1.</p>
+      <a href="project1.html">Learn More</a>
+    </div>
+
+    <div class="project">
+      <img src="project2-thumbnail.jpg" alt="Project 2">
+      <h2>Project 2</h2>
+      <p>Description: Brief description of Project 2.</p>
+      <a href="project2.html">Learn More</a>
+    </div>
+
+    <!-- Add more project entries as needed -->
+
+  </main>
+
+  <footer>
+    <p>Contact: [Your Email]</p>
+  </footer>
+</body>
+
+</html>
