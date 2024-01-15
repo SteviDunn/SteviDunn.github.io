@@ -1,4 +1,4 @@
-title: "Stevi Dunn"
+title: "Home - Stevi Dunn"
 author: "Stevi Dunn"
 description: "<b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
@@ -16,10 +16,14 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md", title: "Resume"}
-  - {file: "CV.html", title: "CV"}
-  - {file: "Projects.html", title: "Projects"}
   - {file: "index.html", title: "About Me"}
+  - {file: "resume.html", title: "Resume/CV"}
+  - {file: "skills.html", title:"Skills"}
+  - {file: "education.hmtl", title: "Education"}
+  - {file: "README.md", title: "Experience"}
+  - {file: "expereince.html", title: "Experience"}
+  - {file: "Projects.html", title: "Projects"}
+  - {file: "contact.html", title: "Contact"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:stevidunn1@gmail.com"}

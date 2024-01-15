@@ -65,10 +65,15 @@ show_sidebar: false        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md", title: "Resume"}
-  - {file: "CV.html", title: "CV"}
-  - {file: "Projects.html", title: "Projects"}
   - {file: "index.html", title: "About Me"}
+  - {file: "resume.html", title: "Resume/CV"}
+  - {file: "skills.html", title:"Skills"}
+  - {file: "education.hmtl", title: "Education"}
+  - {file: "README.md", title: "Experience"}
+  - {file: "expereince.html", title: "Experience"}
+  - {file: "Projects.html", title: "Projects"}
+  - {file: "contact.html", title: "Contact"}
+
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
