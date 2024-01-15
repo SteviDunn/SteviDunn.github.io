@@ -68,7 +68,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "about.html", title: "About Me"}
   - {file: "resume.html", title: "Resume/CV"}
   - {file: "skills.html", title: "Skills"}
-  - {file: "README.md", title: "Experience"}
+  - {file: "experience.hmtl", title: "Experience"}
   - {file: "Projects.html", title: "Projects"}
   - {file: "contact.html", title: "Contact"}
 
