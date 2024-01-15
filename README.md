@@ -67,7 +67,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "about.html", title: "About Me"}
   - {file: "resume.html", title: "Resume/CV"}
-  - {file: "skills.html", title:"Skills"}
+  - {file: "skills.html", title: "Skills"}
   - {file: "README.md", title: "Experience"}
   - {file: "Projects.html", title: "Projects"}
   - {file: "contact.html", title: "Contact"}
