@@ -37,10 +37,10 @@ title: Resume/CV
     .pdf-viewer {
       border: 1px solid #ddd;
       overflow: auto;
-      width: 100%; /* Occupy full width */
-      max-width: 800px; /* Adjust the maximum width */
+      width: 100%;
+      max-width: 800px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px; /* Add some space between PDFs */
+      margin-bottom: 20px;
     }
 
     .download-link {
@@ -49,7 +49,7 @@ title: Resume/CV
       padding: 10px 20px;
       border-radius: 5px;
       background-color: #f8f8f8;
-      margin-bottom: 10px; /* Add space between download links */
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -61,16 +61,16 @@ title: Resume/CV
   </div>
 
   <div class="pdf-container">
-    <a href="path/to/resume.pdf" class="download-link" download>Download Resume</a>
+    <a href="https://drive.google.com/file/d/1CLf7QP_bB6i_sFNKb2P7f9D-jOIDljCV/view?usp=sharing" class="download-link" target="_blank" rel="noopener noreferrer">View/Download Resume</a>
     <div class="pdf-viewer">
-      <embed src="Uploads/Dunn_Stevi_Resume_1.pdf" type="application/pdf" width="100%" height="600">
+      <iframe src="https://drive.google.com/file/d/1CLf7QP_bB6i_sFNKb2P7f9D-jOIDljCV/view?usp=sharing" width="100%" height="600" frameborder="0"></iframe>
     </div>
   </div>
 
   <div class="pdf-container">
-    <a href="path/to/cv.pdf" class="download-link" download>Download CV</a>
+    <a href="https://docs.google.com/viewer?url=path/to/cv.pdf" class="download-link" target="_blank" rel="noopener noreferrer">View/Download CV</a>
     <div class="pdf-viewer">
-      <embed src="path/to/cv.pdf" type="application/pdf" width="100%" height="600">
+      <iframe src="https://docs.google.com/viewer?url=path/to/cv.pdf&embedded=true" width="100%" height="600" frameborder="0"></iframe>
     </div>
   </div>
 </body>
