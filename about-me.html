@@ -45,10 +45,12 @@ title: Home
     .bordered-photo {
       border: 2px solid #333;
       border-radius: 5px;
-      max-width: 100%;
-      height: auto;
+      width: 100%; /* Ensure the width is 100% for responsiveness */
+      height: 200px; /* Set a fixed height for square photos */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
       margin-bottom: 10px; /* Add space between photo and content */
-    }
+}
+
 
     .background-section,
     .interest-section {
@@ -76,6 +78,8 @@ title: Home
   
     <!-- Fields of Interest Section -->
     <section class="interest-section">
+      <img src="/assets/images/robot.png" alt="Robot" class="bordered-photo">
+
       <h2>Fields of Interest</h2>
       <p> My fascination lies at the intersection of robotics and coding, driven by a deep commitment to altruistic engineering—a belief that technology can be a force for positive change in the real world. 
       </p>
@@ -84,6 +88,8 @@ title: Home
 
     <!-- Background Section -->
     <section class="background-section">
+      <img src="/assets/images/tree.jpg" alt="Tree Image" class="bordered-photo">
+
       <h2>Background</h2>
       <p>
         Beyond the academic realm, I find joy in reading, practicing yoga, and exploring the great outdoors
