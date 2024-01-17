@@ -1,6 +1,7 @@
 ---
 title: "Welcome to my Website!"
 layout: post
+date: "{{ site.time | date: '%Y-%m-%d %H:%M:%S %z' }}"
 ---
 ![Sysiphis](/assets/images/sys.jpg)
 
