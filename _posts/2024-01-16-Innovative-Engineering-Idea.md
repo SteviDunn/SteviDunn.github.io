@@ -2,9 +2,7 @@
 title: "Innovative Engineering Ideas"
 layout: post
 ---
-<img src="/assets/images/climbing.jpg" alt="Climbing" width="200" height="100">
-
-![Stairs](/assets/images/climbing.jpg)
+![Stairs](/assets/images/stairs.jpg)
 
 Smart Stair Climbing Aid with AI Guidance:
 
