@@ -2,64 +2,81 @@
 layout: default
 title: Home
 ---
+<!DOCTYPE html>
+<html lang="en">
 
-<title>About Me</title>
-<style>
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-  main {
-    flex: 1;
-    padding: 20px;
-  }
+    main {
+      flex: 1;
+      display: flex; /* Use flexbox for main content */
+    }
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-</style>
+    section {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .about-me-section {
+      order: 1; /* Set the order for the About Me section */
+    }
+
+    .bordered-photo {
+      border: 2px solid #333;
+      border-radius: 5px;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
-<header>
-  <h1>About Me</h1>
-</header>
+  <header>
+    <h1>About Me</h1>
+  </header>
 
-<main>
-  <section>
-    <h2>Introduction</h2>
-    <p>Hello, I'm [Your Name]. Welcome to my "About Me" page!</p>
-  </section>
+  <main>
+    <!-- About Me Section -->
+    <section class="about-me-section">
+      <h2>Introduction</h2>
+      <p>Hello, I'm [Your Name]. Welcome to my "About Me" page!</p>
+      <!-- Add more content as needed -->
 
-  <section>
-    <h2>Background</h2>
-    <p>I have a passion for [Your Interests/Hobbies] and enjoy [Other Details about You]. In my free time, you might find me [Your Favorite Activities].</p>
-  </section>
+      <!-- Bordered Photo -->
+      <img src="/path/to/your/photo.jpg" alt="Your Photo" class="bordered-photo">
+    </section>
 
-  <section>
-    <h2>Fields of Interest</h2>
-    <p>I am interested in the intersection of engineering and computer science. I plan on pursuing a career in robotics software and control systems.</p>
-  </section>
+    <!-- Other Sections -->
+    <section>
+      <h2>Background</h2>
+      <p>I have a passion for [Your Interests/Hobbies] and enjoy [Other Details about You]. In my free time, you might find me [Your Favorite Activities].</p>
+    </section>
 
-  <!-- Add more sections as needed -->
+    <section>
+      <h2>Fields of Interest</h2>
+      <p>I am interested in the intersection of engineering and computer science. I plan on pursuing a career in robotics software and control systems.</p>
+    </section>
 
-</main>
-
-
+    <!-- Add more sections as needed -->
+  </main>
 </body>
 
 </html>
