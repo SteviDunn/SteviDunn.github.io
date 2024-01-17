@@ -12,6 +12,7 @@ People with mobility issues face challenges climbing stairs, limiting accessibil
 *Solution:*
 Create a Smart Stair Climbing Aid with motorized, adaptable treads and AI guidance for safe and efficient navigation.
 
+
 *Key Features:*
 1. Variable Height Adjustment
 2. Motorized Treads with Stability Sensors
