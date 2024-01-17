@@ -2,6 +2,7 @@
 title: "Welcome to my Website!"
 layout: post
 ---
+![Sysiphis](/assets/images/sys.jpg)
 
 
 Hello! If you are reading this you have landed on the 'preview' part of my website that provides short snippets (and links) to some of the other sections of my webpage. 
