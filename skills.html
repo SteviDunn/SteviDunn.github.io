@@ -2,7 +2,6 @@
 layout: default
 title: Skills
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,10 +27,13 @@ title: Skills
 
     main {
       flex: 1;
+      display: flex; /* Use flexbox for main content */
+      justify-content: space-between; /* Add space between sections and image */
       padding: 20px;
     }
 
     section {
+      width: 48%; /* Adjust the width of each section */
       margin-bottom: 20px;
     }
 
@@ -54,6 +56,22 @@ title: Skills
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
+    .skills-container {
+      flex: 1; /* Allow the skills section to take available space */
+    }
+
+    .img-container {
+      max-width: 200px; /* Adjust the max-width of the image container */
+      margin-left: 20px; /* Add space between sections and image */
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 5px;
+    }
+
     footer {
       background-color: #333;
       color: #fff;
@@ -69,55 +87,58 @@ title: Skills
   </header>
 
   <main>
-    <section>
-      <h2>Programming Languages</h2>
-      <ul>
-        
-        <li>Python</li>
-        <li>C++</li>
-        <li>MatLab</li>
-        <!-- Add more programming languages -->
-      </ul>
-    </section>
+    <div class="skills-container">
+      <section>
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>Python</li>
+          <li>C++</li>
+          <li>MatLab</li>
+          <!-- Add more programming languages -->
+        </ul>
+      </section>
 
-    <section>
-      <h2>Web Technologies</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <!-- Add more web technologies -->
-      </ul>
-    </section>
+      <section>
+        <h2>Web Technologies</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <!-- Add more web technologies -->
+        </ul>
+      </section>
 
-    <section>
-      <h2>Engineering</h2>
-      <ul>
-        <li>Solidworks & Fusion 360</li>
-        <li>FEA</li>
-        <li>Mechatronics</li>
-        <li>Signal Processing</li>
-        <li>Software Development Lifecycle</li>
-        <!-- Add more frameworks -->
-      </ul>
-    </section>
+      <section>
+        <h2>Engineering</h2>
+        <ul>
+          <li>Solidworks & Fusion 360</li>
+          <li>FEA</li>
+          <li>Mechatronics</li>
+          <li>Signal Processing</li>
+          <li>Software Development Lifecycle</li>
+          <!-- Add more frameworks -->
+        </ul>
+      </section>
 
-    <section>
-      <h2>Soft Skills</h2>
-      <ul>
-        <li>Spring Boot</li>
-        <li>Angular</li>
-        <li>Django</li>
-        <!-- Add more frameworks -->
-      </ul>
-    </section>
+      <section>
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Time Management</li>
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Problem Solving</li>
+          <!-- Add more frameworks -->
+        </ul>
+      </section>
+    </div>
 
-    <!-- Add more sections for other skill categories -->
+    <div class="img-container">
+      <!-- Add your image source -->
+      <img src="your-image-path.jpg" alt="Your Image">
+    </div>
 
   </main>
-
-
 </body>
 
 </html>
