@@ -16,17 +16,17 @@ Create a Smart Stair Climbing Aid with motorized, adaptable treads and AI guidan
 
 
 *Key Features:*
-1. Variable Height Adjustment
-2. Motorized Treads with Stability Sensors
-3. AI-Powered Guidance System
-4. User-Friendly Interface
-5. Obstacle Detection
-6. Foldable and Portable Design
-7. Long-lasting Battery
+Variable Height Adjustment
+Motorized Treads with Stability Sensors
+AI-Powered Guidance System
+User-Friendly Interface
+Obstacle Detection
+Foldable and Portable Design
+Long-lasting Battery
 
 *Benefits:*
-- Increased independence
-- Enhanced safety with AI guidance
-- Adaptability to different stairs
-- User-friendly control
-- Portability for versatile use.
+Increased independence
+Enhanced safety with AI guidance
+Adaptability to different stairs
+User-friendly control
+Portability for versatile use.
