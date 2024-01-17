@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,6 +38,8 @@ title: Home
 
     .about-me-section {
       order: 1; /* Set the order for the About Me section */
+      display: flex;
+      flex-direction: column;
     }
 
     .bordered-photo {
@@ -44,6 +47,12 @@ title: Home
       border-radius: 5px;
       max-width: 100%;
       height: auto;
+      margin-bottom: 10px; /* Add space between photo and content */
+    }
+
+    .background-section,
+    .interest-section {
+      order: 2; /* Set the order for Background and Fields of Interest sections */
     }
   </style>
 </head>
@@ -56,23 +65,26 @@ title: Home
   <main>
     <!-- About Me Section -->
     <section class="about-me-section">
+      <!-- Bordered Photo -->
+      <img src="/assets/images/profile_pic.jpg" alt="Your Photo" class="bordered-photo">
+
       <h2>Introduction</h2>
       <p>Hello, I'm [Your Name]. Welcome to my "About Me" page!</p>
       <!-- Add more content as needed -->
-
-      <!-- Bordered Photo -->
-      <img src="/assets/images/profile_pic.jpg" alt="Your Photo" class="bordered-photo">
     </section>
 
-    <!-- Other Sections -->
-    <section>
+    <!-- Background Section -->
+    <section class="background-section">
       <h2>Background</h2>
       <p>I have a passion for [Your Interests/Hobbies] and enjoy [Other Details about You]. In my free time, you might find me [Your Favorite Activities].</p>
+      <!-- Add more content as needed -->
     </section>
 
-    <section>
+    <!-- Fields of Interest Section -->
+    <section class="interest-section">
       <h2>Fields of Interest</h2>
       <p>I am interested in the intersection of engineering and computer science. I plan on pursuing a career in robotics software and control systems.</p>
+      <!-- Add more content as needed -->
     </section>
 
     <!-- Add more sections as needed -->
@@ -80,3 +92,4 @@ title: Home
 </body>
 
 </html>
+
