@@ -2,6 +2,8 @@
 title: "Innovative Engineering Ideas"
 layout: post
 ---
+<img src="/assets/images/sys.jpg" alt="Sysiphis" width="300" height="200">
+
 ![Stairs](/assets/images/climbing.jpg)
 
 Smart Stair Climbing Aid with AI Guidance:
