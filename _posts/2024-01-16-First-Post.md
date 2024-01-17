@@ -9,6 +9,9 @@ Hello! If you are reading this you have landed on the 'preview' part of my websi
 
 Think of the 'Home' page as a place to get a chronological categorization of projects, ideas and resources I come across and would like to document. 
 
+<!-- more -->
+
+
 I plan to use this page as a place for writing about innovative engineeing ideas, my own reflections about growing and developing myself as an engineer and resources for others that I find to be beneficial!
 
 
