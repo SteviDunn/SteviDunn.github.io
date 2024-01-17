@@ -3,7 +3,7 @@ title: "Welcome to my website!"
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated. -->
 
 Hello! If you are reading this you have landed on the 'preview' part of my website that provides short snippets (and links) to some of the other sections of my webpage. Think of the 'Home' page as a place to get a chronological categorization of projects, ideas and resources I come across and would like to document. 
 
