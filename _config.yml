@@ -37,4 +37,3 @@ plugins:
  - jekyll-feed
 
 
-excerpt_separator: "\n\n<!-- more -->\n\n"
