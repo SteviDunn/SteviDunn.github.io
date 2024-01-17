@@ -2,7 +2,7 @@
 title: "Innovative Engineering Ideas"
 layout: post
 ---
-<img src="/assets/images/sys.jpg" alt="Sysiphis" width="300" height="200">
+<img src="/assets/images/climbing.jpg" alt="Climbing" width="200" height="100">
 
 ![Stairs](/assets/images/climbing.jpg)
 
